@@ -1,12 +1,93 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="dist/output.css" />
     <title>Document</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body class="bg-primary">
+    <!-- start header -->
+    <header class="inset-x-0.5 bg-btn fixed">
+      <div class="container mx-auto flex justify-between px-5 py-2 items-center">
+        <h1 class="font-semibold text-2xl">YopeX</h1>
+        <ul class="flex gap-2">
+          <li class="group"><a class="group-hover:text-text" href="#home">Home</a></li>
+          <li class="group"><a class="group-hover:text-text" href="#profile">Profile</a></li>
+          <li class="group"><a class="group-hover:text-text" href="#hobby">Hobby</a></li>
+        </ul>
+      </div>
+    </header>
+    <!-- end header -->
+    <!-- start hero -->
+    <section id="home">
+      <div class="container pt-14 min-h-screen mx-auto flex flex-wrap px-5 content-center">
+        <div class="w-full text-text self-center md:w-1/2 border-l-4 rounded pl-4">
+          <h1 class="font-semibold text-2xl lg:text-4xl">Hello I'm......</h1>
+          <h1 class="font-semibold text-2xl lg:text-4xl">Moch Yopy Anggara Putra</h1>
+          <p class="font-light mt-2">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident deserunt laboriosam cumque, cum et consequuntur assumenda similique cupiditate nisi nemo a explicabo autem architecto dolore in earum voluptatibus numquam quod?
+          </p>
+        </div>
+        <div class="w-full md:w-1/2">
+          <img src="dist/images/undraw_feeling_proud_qne1.png" alt="" />
+        </div>
+      </div>
+    </section>
+    <!-- end hero -->
+    <!-- start profile -->
+    <section id="profile">
+      <div class="container pt-14 mx-auto min-h-screen px-5">
+        <h1 class="w-full text-center text-text uppercase font-semibold text-2xl mb-8 relative line-b">About Me</h1>
+        <div class="flex flex-wrap gap-6 justify-center">
+          <div class="w-full md:w-1/3">
+            <img src="dist/images/profile.jpg" alt="" />
+          </div>
+          <div class="w-full text-text md:w-1/2">
+            <h3 class="text-xl font-semibold">I'm Moch Yopy Anggara Putra</h3>
+            <p class="font-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum illo error, deserunt deleniti nesciunt quae nemo sapiente sequi amet hic.</p>
+            <table class="m-4 font-light">
+              <tr>
+                <td class="font-semibold">Birthday</td>
+                <td>:</td>
+                <td>23 March 2000</td>
+              </tr>
+              <tr>
+                <td class="font-semibold">Address</td>
+                <td>:</td>
+                <td>St. Brau No. 12</td>
+              </tr>
+              <tr>
+                <td class="font-semibold">Residance</td>
+                <td>:</td>
+                <td>Indonesia</td>
+              </tr>
+              <tr>
+                <td class="font-semibold">E-mail</td>
+                <td>:</td>
+                <td>mochyopy23@gmail.com</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end profile -->
+    <!-- start hobby -->
+    <section id="hobby">
+      <div class="container min-h-screen pt-14 mx-auto px-5">
+        <h1 class="w-full text-text text-center uppercase text-2xl mb-8 relative line-b">Hobby</h1>
+        <div class="flex flex-wrap img cursor-pointer">
+          <img src="dist/images/1.jpg" alt="" class="w-full md:w-1/2 lg:w-1/4" />
+          <img src="dist/images/1.jpg" alt="" class="w-full md:w-1/2 lg:w-1/4" />
+          <img src="dist/images/1.jpg" alt="" class="w-full md:w-1/2 lg:w-1/4" />
+          <img src="dist/images/1.jpg" alt="" class="w-full md:w-1/2 lg:w-1/4" />
+          <img src="dist/images/1.jpg" alt="" class="w-full md:w-1/2 lg:w-1/4" />
+          <img src="dist/images/1.jpg" alt="" class="w-full md:w-1/2 lg:w-1/4" />
+        </div>
+      </div>
+    </section>
+    <!-- end hobby -->
+  </body>
 </html>
