@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+.line-b{
+  @apply after:content-[''] after:h-1 after:w-[10%] after:absolute after:bg-text after:left-[50%] after:bottom-[-5px] after:translate-x-[-50%] after:translate-y-[-50%];
+}
+}
+
+#hobby .img:hover > :not(:hover) {
+  filter: grayscale(100%);
+  opacity: 0.75;
+  cursor: pointer;
+  transition: 0.3s;
+}
